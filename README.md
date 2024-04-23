@@ -53,12 +53,12 @@ telegram-video-downloader --api_id YOUR_API_ID --api_hash YOUR_API_HASH --sessio
 
 - Starting the HTTP server:
   ```
-  telegram-video-downloader --api_id 123456 --api_hash abcdef1234567890abcdef1234567890 --session_file session_name.session --mode http
+  telegram-video-downloader --api_id 123456 --api_hash abcdef1234567890abcdef1234567890 --session_file /media/secure/telegram/session_name.session --mode http
   ```
 
 - Directly downloading a video:
   ```
-  telegram-video-downloader --api_id 123456 --api_hash abcdef1234567890abcdef1234567890 --session_file session_name.session --mode download --url https://t.me/pokemontvcastellano/1/2016 --output /media/telegram
+  telegram-video-downloader --api_id 123456 --api_hash abcdef1234567890abcdef1234567890 --session_file /media/secure/telegram/session_name.session --mode download --url https://t.me/pokemontvcastellano/1/2016 --output /media/telegram
   ```
 
 ## Contributions
