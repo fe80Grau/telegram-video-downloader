@@ -1,9 +1,3 @@
-# telegram-video-downloader
-Command to download a video published on Telegram
-Here is an example of a README.md for your Telegram Video Downloader project using Quart and Telethon, translated into English. Modify the details as necessary for your specific project.
-
----
-
 # Telegram Video Downloader
 
 This project enables you to download videos from Telegram directly to your computer, either via an HTTP API or by running the script in direct download mode. It utilizes Quart, an asynchronous Python framework, and Telethon, a Telegram client library.
