@@ -18,6 +18,10 @@ Before you start, make sure you have the following:
    ```
 
 2. Set up your environment variables or pass the necessary arguments (`api_id`, `api_hash`, `session_file`) to the script.
+ENV VARS
+- API_ID
+- API_HASH
+- SESSION_FILE (.session file full path)
 
 ## Usage
 
