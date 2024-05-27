@@ -23,7 +23,7 @@ def parse_args():
 args = parse_args()
 client = TelegramClient(args.session_file, args.api_id, args.api_hash)
 app = Quart(__name__)
-CHUNK_SIZE = 64 * 1024  # 64 KB
+CHUNK_SIZE = 1 * 1024 * 1024  # 1MB
 
 async def download_generator(client, document, start, end):
     pos = start
@@ -36,7 +36,7 @@ async def download_generator(client, document, start, end):
 
 async def download_url(url, output):
     split_url = url.split('/')
-    channel = split_url[-3]  # Ajusta según el formato real de tu URL.
+    channel = split_url[3]  # Ajusta según el formato real de tu URL.
     message_id = int(split_url[-1])
 
     await client.start()
