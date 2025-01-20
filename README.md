@@ -41,6 +41,15 @@ http://127.0.0.1:5151/telegram/direct/pokemontvcastellano-2016
 ```
 This telegram-video-downloader url's can be stored in strm files or played directly in vlc for example.
 
+![image](https://github.com/user-attachments/assets/c1baa89b-9adf-4fd0-a083-a158987d8853)
+![image](https://github.com/user-attachments/assets/29a647ad-79d7-43af-b468-c1101ad733e5)
+**This video can't be download from Telegram Client, but yes with this tool 😉
+
+* Link obtained: https://t.me/Mikadrama1/14097
+* Channel: Mikadrama1
+* Message ID: 14097
+![image](https://github.com/user-attachments/assets/eb52e432-91c1-4a04-b1d9-937ebd0193bf)
+
 ### Download Mode
 
 This mode directly downloads a specific video to your computer using the video's Telegram URL.
@@ -53,6 +62,7 @@ Using prefix to replace channel name with custom text in the file name
 ```
 telegram-video-downloader --api_id YOUR_API_ID --api_hash YOUR_API_HASH --session_file PATH_TO_YOUR_SESSION_FILE --mode download --url TELEGRAM_VIDEO_URL --output OUTPUT_FOLDER --prefix ShowTitle
 ```
+![image](https://github.com/user-attachments/assets/27ab3a69-da47-47cd-8e48-359b1e92630d)
 
 
 ## Examples of Use
