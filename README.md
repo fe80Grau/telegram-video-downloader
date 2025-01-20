@@ -21,7 +21,7 @@ Before you start, make sure you have the following:
 ENV VARS
 - API_ID
 - API_HASH
-- SESSION_FILE (.session file full path)
+- SESSION_FILE (The full path of the .session file will be created if it does not exist)
 
 ## Usage
 
