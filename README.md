@@ -49,6 +49,12 @@ This mode directly downloads a specific video to your computer using the video's
 telegram-video-downloader --api_id YOUR_API_ID --api_hash YOUR_API_HASH --session_file PATH_TO_YOUR_SESSION_FILE --mode download --url TELEGRAM_VIDEO_URL --output OUTPUT_FOLDER
 ```
 
+Using prefix to replace channel name with custom text in the file name
+```
+telegram-video-downloader --api_id YOUR_API_ID --api_hash YOUR_API_HASH --session_file PATH_TO_YOUR_SESSION_FILE --mode download --url TELEGRAM_VIDEO_URL --output OUTPUT_FOLDER --prefix ShowTitle
+```
+
+
 ## Examples of Use
 
 - Starting the HTTP server:

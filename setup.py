@@ -8,6 +8,7 @@ setup(
     install_requires=[
         'quart',
         'telethon',
+        'cryptg'
     ],
     author='David Grau Martínez',
     author_email='fe80grau@gmail.com',
